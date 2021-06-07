@@ -215,7 +215,7 @@ class WelcomePageTab extends StatelessWidget {
                       padding: const EdgeInsets.symmetric(
                           horizontal: 20, vertical: 15),
                       child: Text(
-                        'CONTACT ME',
+                        'Contact me :)',
                         style: TextStyle(
                           fontSize: 18,
                           fontWeight: FontWeight.w800,
@@ -243,7 +243,7 @@ class WelcomePageTab extends StatelessWidget {
                       padding: const EdgeInsets.symmetric(
                           horizontal: 40, vertical: 15),
                       child: Text(
-                        'MY RESUME',
+                        'My Resume :)',
                         style: TextStyle(
                           fontSize: 18,
                           fontWeight: FontWeight.w800,
@@ -350,7 +350,7 @@ class WelcomePageMob extends StatelessWidget {
                       padding: const EdgeInsets.symmetric(
                           horizontal: 15, vertical: 10),
                       child: Text(
-                        'CONTACT ME',
+                        'Contact me :)',
                         style: TextStyle(
                           fontSize: 18,
                           fontWeight: FontWeight.w800,
@@ -383,7 +383,7 @@ class WelcomePageMob extends StatelessWidget {
                       padding: const EdgeInsets.symmetric(
                           horizontal: 15, vertical: 10),
                       child: Text(
-                        'MY RESUME',
+                        'My Resume :)',
                         style: TextStyle(
                           fontSize: 16,
                           fontWeight: FontWeight.w900,
