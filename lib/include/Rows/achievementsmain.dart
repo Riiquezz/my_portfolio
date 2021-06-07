@@ -56,7 +56,7 @@ class AchieveDesk extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.center,
                       children: [
                         Image.network(
-                          'https://img.icons8.com/cute-clipart/64/000000/google-logo.png',
+                          'https://img.icons8.com/clouds/150/000000/google-logo.png',
                           width: 250,
                           height: 175,
                         ),
@@ -94,7 +94,7 @@ class AchieveDesk extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.center,
                       children: [
                         Image.network(
-                          'https://img.icons8.com/cute-clipart/64/000000/google-logo.png',
+                          'https://img.icons8.com/clouds/150/000000/google-logo.png',
                           width: 250,
                           height: 175,
                         ),
@@ -132,7 +132,7 @@ class AchieveDesk extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.center,
                       children: [
                         Image.network(
-                          'https://img.icons8.com/cute-clipart/64/000000/google-logo.png',
+                          'https://img.icons8.com/clouds/150/000000/google-logo.png',
                           width: 250,
                           height: 175,
                         ),
