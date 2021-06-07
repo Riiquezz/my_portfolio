@@ -70,7 +70,7 @@ class EduDesk extends StatelessWidget {
             ],
           ),
           SizedBox(
-            width: 25,
+            height: 50,
           ),
           Row(
             children: [
