@@ -18,7 +18,7 @@ class AchieveDesk extends StatelessWidget {
             height: 10,
           ),
           Text(
-            'ACHIEVEMENTS, CERTIFICATIONS AND SOME COOL STUFF THAT I HAVE DONE !',
+            'Achievements, certifications and cool stuff I have done :)',
             style: TextStyle(color: Colors.grey, fontSize: 22),
           ),
           SizedBox(
@@ -28,7 +28,7 @@ class AchieveDesk extends StatelessWidget {
             scrollDirection: Axis.horizontal,
             child: Container(
               height: 350,
-              width: 1000,
+              width: 1500,
               child: Row(
                 children: [
                   SizedBox(
@@ -56,33 +56,21 @@ class AchieveDesk extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.center,
                       children: [
                         Image.network(
-                          'https://logodownload.org/wp-content/uploads/2014/09/google-logo-1.png',
+                          'https://img.icons8.com/cute-clipart/64/000000/google-logo.png',
                           width: 250,
                           height: 175,
                         ),
                         Text(
-                          'Walls',
+                          'Elastic Google Cloud Infrastructure: Scaling and Automation',
                           style: TextStyle(
-                              fontSize: 30, fontWeight: FontWeight.w700),
+                              fontSize: 20, fontWeight: FontWeight.w700),
                           textAlign: TextAlign.center,
                         ),
-                        InkWell(
-                            onTap: () {
-                              js.context.callMethod("open", [
-                                "https://play.google.com/store/apps/details?id=com.naveenjujaray.walls"
-                              ]);
-                            },
-                            child: Text(
-                              'Available on Playstore',
-                              style: TextStyle(
-                                  fontSize: 18, color: Colors.green[900]),
-                              textAlign: TextAlign.center,
-                            )),
                       ],
                     ),
                   ),
                   SizedBox(
-                    width: 25,
+                    width: 15,
                   ),
                   Container(
                     width: 450,
@@ -106,33 +94,21 @@ class AchieveDesk extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.center,
                       children: [
                         Image.network(
-                          'https://logodownload.org/wp-content/uploads/2014/09/google-logo-1.png',
+                          'https://img.icons8.com/cute-clipart/64/000000/google-logo.png',
                           width: 250,
                           height: 175,
                         ),
                         Text(
-                          'Walls',
+                          'Google Cloud Platform: Core Infrastructure',
                           style: TextStyle(
-                              fontSize: 30, fontWeight: FontWeight.w700),
+                              fontSize: 20, fontWeight: FontWeight.w700),
                           textAlign: TextAlign.center,
                         ),
-                        InkWell(
-                            onTap: () {
-                              js.context.callMethod("open", [
-                                "https://play.google.com/store/apps/details?id=com.naveenjujaray.walls"
-                              ]);
-                            },
-                            child: Text(
-                              'Available on Playstore',
-                              style: TextStyle(
-                                  fontSize: 18, color: Colors.green[900]),
-                              textAlign: TextAlign.center,
-                            )),
                       ],
                     ),
                   ),
                   SizedBox(
-                    width: 25,
+                    width: 15,
                   ),
                   Container(
                     width: 450,
@@ -156,33 +132,21 @@ class AchieveDesk extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.center,
                       children: [
                         Image.network(
-                          'https://logodownload.org/wp-content/uploads/2014/09/google-logo-1.png',
+                          'https://img.icons8.com/cute-clipart/64/000000/google-logo.png',
                           width: 250,
                           height: 175,
                         ),
                         Text(
-                          'Walls',
+                          'Google Cloud Essentials',
                           style: TextStyle(
-                              fontSize: 30, fontWeight: FontWeight.w700),
+                              fontSize: 20, fontWeight: FontWeight.w700),
                           textAlign: TextAlign.center,
                         ),
-                        InkWell(
-                            onTap: () {
-                              js.context.callMethod("open", [
-                                "https://play.google.com/store/apps/details?id=com.naveenjujaray.walls"
-                              ]);
-                            },
-                            child: Text(
-                              'Available on Playstore',
-                              style: TextStyle(
-                                  fontSize: 18, color: Colors.green[900]),
-                              textAlign: TextAlign.center,
-                            )),
                       ],
                     ),
                   ),
                   SizedBox(
-                    width: 25,
+                    width: 15,
                   ),
                 ],
               ),
