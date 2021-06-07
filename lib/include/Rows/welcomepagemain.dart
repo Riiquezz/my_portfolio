@@ -82,9 +82,9 @@ class WelcomePageDesk extends StatelessWidget {
                       locator<NavigationService>().navigateTo(ContactRoute),
                   child: Container(
                     padding: const EdgeInsets.symmetric(
-                        horizontal: 20, vertical: 15),
+                        horizontal: 105, vertical: 15),
                     child: Text(
-                      'CONTACT ME',
+                      'Contact me :)',
                       style: TextStyle(
                         fontSize: 18,
                         fontWeight: FontWeight.w800,
@@ -93,7 +93,7 @@ class WelcomePageDesk extends StatelessWidget {
                     ),
                     decoration: BoxDecoration(
                       color: Colors.blueAccent,
-                      borderRadius: BorderRadius.circular(5),
+                      borderRadius: BorderRadius.circular(50),
                     ),
                   ),
                 ),
@@ -110,9 +110,9 @@ class WelcomePageDesk extends StatelessWidget {
                   },
                   child: Container(
                     padding: const EdgeInsets.symmetric(
-                        horizontal: 40, vertical: 15),
+                        horizontal: 105, vertical: 15),
                     child: Text(
-                      'MY RESUME',
+                      'My resume :)',
                       style: TextStyle(
                         fontSize: 18,
                         fontWeight: FontWeight.w800,
@@ -121,7 +121,7 @@ class WelcomePageDesk extends StatelessWidget {
                     ),
                     decoration: BoxDecoration(
                       color: Colors.blueAccent,
-                      borderRadius: BorderRadius.circular(5),
+                      borderRadius: BorderRadius.circular(50),
                     ),
                   ),
                 ),
